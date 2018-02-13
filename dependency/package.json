@@ -1,0 +1,17 @@
+{
+  "name": "dependency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --no-watchman"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.2.2"
+  },
+  "dependencies": {
+    "cowsay": "^1.2.1"
+  }
+}
