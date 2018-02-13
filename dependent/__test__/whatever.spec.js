@@ -6,11 +6,11 @@ const cowsay = require('cowsay');
 const dependency = require('dependency');
 
 describe('something', () => {
-  it('does it', () => {
+  it('mocks direct usage', () => {
     expect(cowsay.say({text: 'hello'})).toEqual('moo hello');
   });
 
-  it('does it too', () => {
+  it('mocks dependency usage', () => {
     expect(dependency('hello')).toEqual('moo hello');
   });
 });
